@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.la_mar_de_cookies.MainActivity">
+
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:src="@drawable/lamardecookies"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <ImageView
+           android:id="@+id/order_button"
+           style="@style/bar_button"
+           android:src="@drawable/order" />
+
+        <ImageView
+            android:id="@+id/web_button"
+            style="@style/bar_button"
+            android:src="@drawable/web" />
+
+        <ImageView
+            android:id="@+id/fb_button"
+            style="@style/bar_button"
+            android:src="@drawable/fb" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/telephone"
+            style="@style/details_texstyle"
+            android:text="@string/telephone"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/details_texstyle"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/order_timing"
+            style="@style/details_texstyle"
+            android:text="@string/timing"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/lamardecookies_description"
+            style="@style/description_texstyle"
+            android:text="@string/description" />
+
+        <TextView
+            android:id="@+id/footer"
+            style="@style/footer"
+            android:text="@string/footer"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+

@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#616161</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="details_texstyle" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:textColor">@color/violet</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">65dp</item>
+        <item name="android:drawableLeft">@drawable/muffin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+
+
+    <style name="description_texstyle" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/orange</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">5</item>
+
+    </style>
+
+
+    <style name="bar_button" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:background">@drawable/frame</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+
+    </style>
+
+
+    <style name="footer" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:textColor">@color/violet</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+
+    </style>
+
+</resources>

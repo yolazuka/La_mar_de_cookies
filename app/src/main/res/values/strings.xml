@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">La_mar_de_cookies</string>
+    <string name="description"><b>La Mar de Cookies</b> is the first Gluten and lactose-free Bakery in Zaragoza. All our products are hand-made and super fresh.<b>\n Gluten-free is sexy...and tasty!</b></string>
+    <string name="telephone"><b>Telephone:</b>\n(0034) 648 44 96 35</string>
+    <string name="address"><b>Address:</b>\nCalle San Pablo, 95, Zaragoza, 50003</string>
+    <string name="timing"><b>Opening times:</b>\nMonday to Sunday from 08:30 to 20:30h</string>
+    <string name="footer">La Mar de cookies. All rights reserved. Zaragoza (Spain)</string>
+</resources>
