@@ -3,23 +3,23 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#FFFFFF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     tools:context="com.example.usuario.la_mar_de_cookies.MainActivity">
 
-
         <ImageView
             android:id="@+id/header_image"
-            android:src="@drawable/lamardecookies"
             android:layout_width="match_parent"
-            android:layout_height="150dp" />
+            android:layout_height="120dp"
+            android:src="@drawable/lamardecookies" />
 
     <LinearLayout
         android:id="@+id/menu_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:orientation="horizontal">
 
        <ImageView
@@ -43,20 +43,41 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
 
+        <ImageView
+            android:id="@+id/business_picture"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/business_picture" />
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/business_description"
+            style="@style/description_texstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/description" />
 
         <TextView
             android:id="@+id/telephone"
             style="@style/details_texstyle"
-            android:text="@string/telephone"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:text="@string/telephone" />
 
         <TextView
             android:id="@+id/address"
@@ -66,27 +87,22 @@
         <TextView
             android:id="@+id/order_timing"
             style="@style/details_texstyle"
-            android:text="@string/timing"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:text="@string/timing" />
 
-        <TextView
-            android:id="@+id/lamardecookies_description"
-            style="@style/description_texstyle"
-            android:text="@string/description" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/orange" />
 
         <TextView
             android:id="@+id/footer"
             style="@style/footer"
+            android:layout_marginBottom="15dp"
             android:text="@string/footer"/>
-
 
         </LinearLayout>
 
     </ScrollView>
 
-
-    </LinearLayout>
-
-
-
-
+</LinearLayout>
